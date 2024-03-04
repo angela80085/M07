@@ -1,0 +1,31 @@
+/* Style for shop hero image */
+#shophero {
+    background-image: url('psunset.jpg');
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Style for shop sections */
+.shop {
+    margin: 1em;
+    background-color: #F4F4F4;
+}
+
+/* Style for images in shop sections */
+.shop img {
+    float: right;
+    padding: 1em;
+}
+
+/* Style for forms in shop sections to clear the float */
+.shop form {
+    clear: right;
+}
+
+/* Media query for shop hero */
+@media screen and (max-width: 600px) {
+    #shophero {
+        background-size: 100% 100%;
+    }
+}
